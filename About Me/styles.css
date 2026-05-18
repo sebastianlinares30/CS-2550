@@ -1,0 +1,16 @@
+h2 {
+    font-family: "Lucida Handwriting", cursive;
+}
+
+a {
+    text-decoration: none;
+}
+
+a:hover {
+    text-decoration: underline;
+}
+
+th, td {
+  text-align: left;
+  vertical-align: top; 
+}
