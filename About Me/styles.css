@@ -1,5 +1,7 @@
 h2 {
     font-family: "Lucida Handwriting", cursive;
+    margin-top: 18px;
+    margin-bottom: 4px;
 }
 
 a {
@@ -14,3 +16,104 @@ th, td {
   text-align: left;
   vertical-align: top; 
 }
+
+body {
+    font-family: Arial;
+    font-size: 12px;
+    margin: 15px;
+    background-image: url("background.avif");
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    background-attachment: fixed;
+
+}
+
+p {
+    text-indent: 20px;
+    margin-bottom: 10px;
+}
+
+#haiku {
+    text-indent: 0;
+    padding-left: 25px;
+}
+
+#my_name {
+    font-size: 30px;
+    text-decoration: underline;
+    text-align: center;
+    text-indent: 0;
+    background-image: linear-gradient(to right, skyblue, pink);
+    width: 500px;
+    border-radius: 5px;
+    padding: 5px;
+}
+
+#table {
+    table-layout: fixed;
+    width: 600px;
+    border-collapse: collapse;
+    border-spacing: 0;
+}
+
+#table th {
+    width: 110px;
+    background-color: rgb(177, 230, 150);
+    text-align: center;
+}
+
+#table td {
+    width: 110px;
+    vertical-align: top;
+    text-align: center;
+}
+
+#table, #table th, #table td {
+    border: 1px solid black;
+}
+
+#container {
+    width: 700px;
+    background-color: rgb(210, 170, 238);
+    border-radius: 5px;
+    padding: 20px;
+    margin: auto;
+}
+
+#fish {
+    position: fixed;
+    bottom: 20px;
+    right: 20px;
+    width: 120px;
+    height: 120px;
+    border-radius: 30%;
+    overflow: hidden;
+    opacity: 0;
+    animation: fadeIn 2s ease-in-out forwards;
+}
+
+#fish img {
+    width: 100%;
+    height: 100%;
+}
+
+@keyframes fadeIn {
+    from {
+        opacity: 0;
+    }
+    to {
+        opacity: 1;
+    }
+}
+
+#fish_label {
+    position: fixed;
+    background-color: pink;
+    padding: 5px;
+    border-radius: 10px;
+    bottom: 150px;
+    right: 38px;
+    animation: fadeIn 2s ease-in-out forwards;
+}
+
